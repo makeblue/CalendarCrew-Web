@@ -1,0 +1,26 @@
+import type { ReactNode } from 'react';
+import './globals.css';
+import { SiteFooter } from '../components/site-footer';
+import { SiteHeader } from '../components/site-header';
+import { buildPageMetadata } from '../lib/seo/site-metadata';
+
+export const metadata = buildPageMetadata({
+  title: 'Crew',
+  description: 'Plan together, stay together.',
+});
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: ReactNode;
+}>) {
+  return (
+    <html lang="en">
+      <body className="crew-root">
+        <SiteHeader />
+        {children}
+        <SiteFooter />
+      </body>
+    </html>
+  );
+}
