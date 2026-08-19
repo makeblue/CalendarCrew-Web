@@ -4,8 +4,8 @@ export const dynamic = 'force-static';
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Crew',
-    short_name: 'Crew',
+    name: 'CalendarCrew',
+    short_name: 'CalendarCrew',
     description: 'Event coordination for organizers.',
     start_url: '/',
     display: 'standalone',

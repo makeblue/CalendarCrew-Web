@@ -1,9 +1,9 @@
 import { buildPageMetadata } from '../../lib/seo/site-metadata';
 
 export const metadata = buildPageMetadata({
-  title: 'Terms | Crew',
+  title: 'Terms | CalendarCrew',
   description:
-    'Read the Crew terms route for upcoming details about the product terms and website usage.',
+    'Read the CalendarCrew terms route for upcoming details about the product terms and website usage.',
   path: '/terms',
 });
 

@@ -3,8 +3,8 @@ export function SiteHeader() {
     <header className="site-header">
       <div className="site-header__inner">
         <a className="brand-lockup" href="/">
-          <img alt="Crew" className="brand-logo" src="/brand/crew-logo.png" />
-          <span className="brand-wordmark">Crew</span>
+          <img alt="CalendarCrew" className="brand-logo" src="/brand/crew-logo.png" />
+          <span className="brand-wordmark">CalendarCrew</span>
         </a>
         <nav className="simple-nav" aria-label="Primary">
           <a href="/about">About us</a>

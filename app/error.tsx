@@ -11,7 +11,7 @@ export default function ErrorPage({ error, reset }: ErrorPageProps) {
   return (
     <main className="shell">
       <section className="hero">
-        <p className="eyebrow">Crew</p>
+        <p className="eyebrow">CalendarCrew</p>
         <h1>Something went wrong.</h1>
         <p className="lede">
           We hit an unexpected problem while loading this part of the website.

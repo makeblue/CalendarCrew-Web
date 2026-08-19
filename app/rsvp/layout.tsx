@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 
 export const metadata: Metadata = {
-  title: 'RSVP | Crew',
-  description: 'Respond to a Crew event invitation.',
+  title: 'RSVP | CalendarCrew',
+  description: 'Respond to a CalendarCrew event invitation.',
   robots: {
     index: false,
     follow: false,

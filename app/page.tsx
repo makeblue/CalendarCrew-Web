@@ -1,7 +1,7 @@
 import { buildPageMetadata } from '../lib/seo/site-metadata';
 
 export const metadata = buildPageMetadata({
-  title: 'Crew | Event coordination',
+  title: 'CalendarCrew | Event coordination',
   description:
     'Create an event, share the details, and coordinate responses in one place.',
   path: '/',
@@ -21,12 +21,12 @@ export default function HomePage() {
         <p className="eyebrow">For event organizers</p>
         <h1>Make the event. Coordinate the details.</h1>
         <p className="lede">
-          Crew gives the organizer one clear place to create an event, share
+          CalendarCrew gives the organizer one clear place to create an event, share
           the information, and keep track of responses.
         </p>
       </section>
 
-      <section className="steps" aria-label="How Crew works for organizers">
+      <section className="steps" aria-label="How CalendarCrew works for organizers">
         {steps.map(([number, title, body]) => (
           <article className="step" key={number}>
             <span className="step-number">{number}</span>
@@ -40,13 +40,13 @@ export default function HomePage() {
 
       <section className="quiet-callout">
         <p className="card-kicker">The website</p>
-        <h2>The organizer works in Crew. Guests use the RSVP link.</h2>
+        <h2>The organizer works in CalendarCrew. Guests use the RSVP link.</h2>
         <p>
           This site is intentionally small. The app handles event creation and
           coordination; the RSVP endpoint handles guest responses.
         </p>
         <a className="text-link" href="/about">
-          About Crew <span aria-hidden="true">→</span>
+          About CalendarCrew <span aria-hidden="true">→</span>
         </a>
       </section>
     </main>

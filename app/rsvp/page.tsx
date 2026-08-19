@@ -103,7 +103,7 @@ export default function RsvpPage() {
   return (
     <main className="shell">
       <section className="hero">
-        <p className="eyebrow">Crew RSVP</p>
+        <p className="eyebrow">CalendarCrew RSVP</p>
         <h1>Join the plan.</h1>
 
         {isLoading ? (

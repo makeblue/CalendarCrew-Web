@@ -23,7 +23,7 @@ export function buildPageMetadata({
       title,
       description,
       url,
-      siteName: 'Crew',
+      siteName: 'CalendarCrew',
     },
     twitter: {
       card: 'summary_large_image',

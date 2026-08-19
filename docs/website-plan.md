@@ -1,8 +1,8 @@
-# Crew Website Plan
+# CalendarCrew Website Plan
 
 ## Purpose
 
-This repository is the standalone public website for Crew. It is deliberately small and separate from the mobile app.
+This repository is the standalone public website for CalendarCrew. It is deliberately small and separate from the mobile app.
 
 The website has three responsibilities:
 

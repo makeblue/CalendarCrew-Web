@@ -5,7 +5,7 @@ import { SiteHeader } from '../components/site-header';
 import { buildPageMetadata } from '../lib/seo/site-metadata';
 
 export const metadata = buildPageMetadata({
-  title: 'Crew',
+  title: 'CalendarCrew',
   description: 'Event coordination for organizers.',
 });
 

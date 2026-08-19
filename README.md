@@ -1,6 +1,6 @@
-# Crew Web
+# CalendarCrew Web
 
-This is the standalone Next.js website for Crew, deployed as a static site to GitHub Pages.
+This is the standalone Next.js website for CalendarCrew, deployed as a static site to GitHub Pages.
 
 The public website is intentionally small:
 

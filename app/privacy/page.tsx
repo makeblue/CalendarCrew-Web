@@ -1,9 +1,9 @@
 import { buildPageMetadata } from '../../lib/seo/site-metadata';
 
 export const metadata = buildPageMetadata({
-  title: 'Privacy | Crew',
+  title: 'Privacy | CalendarCrew',
   description:
-    'Read the Crew privacy route for upcoming details about how the product will handle personal information.',
+    'Read the CalendarCrew privacy route for upcoming details about how the product will handle personal information.',
   path: '/privacy',
 });
 
