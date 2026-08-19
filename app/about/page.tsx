@@ -32,8 +32,10 @@ export default function AboutPage() {
           <p className="card-kicker">The RSVP link</p>
           <h2>Guests do not need an account.</h2>
           <p className="lede">
-            The app creates a secure link for an invitee. They open it, enter
-            their name, and respond. The organizer sees the result in CalendarCrew.
+            People using the app are notified there and can RSVP in CalendarCrew.
+            Guests who do not use the app receive a unique link that the
+            organizer can share with them. They open it, enter their name, and
+            respond. The organizer sees both responses in CalendarCrew.
           </p>
         </article>
       </section>

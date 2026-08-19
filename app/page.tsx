@@ -9,8 +9,9 @@ export const metadata = buildPageMetadata({
 
 const steps = [
   ['01', 'Create an event', 'Set the time, place, and details your guests need.'],
-  ['02', 'Share the invitation', 'Send the RSVP link through the channel you already use.'],
-  ['03', 'Coordinate responses', 'See who is going, who is unsure, and who cannot make it.'],
+  ['02', 'App users RSVP in CalendarCrew', 'People using the app are notified there and can respond directly in the app.'],
+  ['03', 'Share unique RSVP links', 'For guests who do not use the app, share their unique link by text, email, or any channel you use.'],
+  ['04', 'Coordinate responses', 'See app RSVPs and link responses together in one place.'],
 ];
 
 export default function HomePage() {

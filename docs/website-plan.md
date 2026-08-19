@@ -21,8 +21,9 @@ The home page should answer one question plainly: what does Crew help the organi
 It should focus on:
 
 - Creating an event
-- Sharing the event details
-- Coordinating RSVP responses
+- Notifying app users and collecting their in-app RSVPs
+- Sharing unique RSVP links with guests who do not use the app
+- Coordinating both response types
 
 Avoid promotional claims, broad feature marketing, download campaigns, product hype, and decorative interaction demos.
 
