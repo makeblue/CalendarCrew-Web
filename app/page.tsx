@@ -1,96 +1,52 @@
 import { buildPageMetadata } from '../lib/seo/site-metadata';
 
 export const metadata = buildPageMetadata({
-  title: 'Crew | Move in sync.',
+  title: 'Crew | Event coordination',
   description:
-    'Plan nights out, keep crews aligned, and turn loose ideas into shared momentum.',
+    'Create an event, share the details, and coordinate responses in one place.',
   path: '/',
 });
 
-const pulseItems = [
-  {
-    title: "Tonight's pulse",
-    body: 'A quick snapshot of who is in, what is moving, and where energy is building.',
-  },
-  {
-    title: 'Crew rituals',
-    body: 'Recurring plans, neighborhood favorites, and traditions your group actually keeps.',
-  },
-  {
-    title: 'Shared momentum',
-    body: 'Loose ideas become real plans with clear next steps, timing, and a committed crew.',
-  },
-];
-
-const frictionPoints = [
-  'Group chats hide the actual decision.',
-  'RSVP status gets stale fast.',
-  'Desktop planning usually means spreadsheets or tabs everywhere.',
-];
-
-const outcomePoints = [
-  'A single view for momentum, replies, and who is actually in.',
-  'Event details that stay clear even when plans shift.',
-  'A path to a real desktop surface instead of a phone-shaped compromise.',
+const steps = [
+  ['01', 'Create an event', 'Set the time, place, and details your guests need.'],
+  ['02', 'Share the invitation', 'Send the RSVP link through the channel you already use.'],
+  ['03', 'Coordinate responses', 'See who is going, who is unsure, and who cannot make it.'],
 ];
 
 export default function HomePage() {
   return (
     <main className="shell">
       <section className="hero">
-        <p className="eyebrow">Crew</p>
-        <h1>Move in sync.</h1>
-        <p className="lede">Plan nights out, keep crews aligned, and turn loose ideas into shared momentum.</p>
-        <div className="hero-actions">
-          <a className="primary-action" href="/surface">
-            Open the desktop surface
-          </a>
-          <span className="secondary-action">
-            Dark-mode website built from the Crew product language
-          </span>
-        </div>
+        <img alt="" className="hero-logo" src="/brand/crew-logo.png" />
+        <p className="eyebrow">For event organizers</p>
+        <h1>Make the event. Coordinate the details.</h1>
+        <p className="lede">
+          Crew gives the organizer one clear place to create an event, share
+          the information, and keep track of responses.
+        </p>
       </section>
 
-      <section className="story-grid" aria-label="Why crews use Crew">
-        <article className="story-card">
-          <p className="card-kicker">Why crews stall</p>
-          <h2>Plans fade when the next step is buried in noise.</h2>
-          <ul className="story-list">
-            {frictionPoints.map((item) => (
-              <li key={item}>{item}</li>
-            ))}
-          </ul>
-        </article>
-        <article className="story-card">
-          <p className="card-kicker">What changes with Crew</p>
-          <h2>Coordination becomes visible, shared, and easier to finish.</h2>
-          <ul className="story-list">
-            {outcomePoints.map((item) => (
-              <li key={item}>{item}</li>
-            ))}
-          </ul>
-        </article>
-      </section>
-
-      <section className="signal-grid" id="surface" aria-label="Crew landing highlights">
-        {pulseItems.map((item) => (
-          <article className="signal-card" key={item.title}>
-            <p className="card-kicker">Surface</p>
-            <h2>{item.title}</h2>
-            <p>{item.body}</p>
+      <section className="steps" aria-label="How Crew works for organizers">
+        {steps.map(([number, title, body]) => (
+          <article className="step" key={number}>
+            <span className="step-number">{number}</span>
+            <div>
+              <h2>{title}</h2>
+              <p>{body}</p>
+            </div>
           </article>
         ))}
       </section>
 
-      <section className="desktop-callout">
-        <p className="card-kicker">Desktop when you want it</p>
-        <h2>The web surface is being shaped for real computer use.</h2>
+      <section className="quiet-callout">
+        <p className="card-kicker">The website</p>
+        <h2>The organizer works in Crew. Guests use the RSVP link.</h2>
         <p>
-          That means split-pane planning, richer visibility, and calmer browsing
-          when a laptop is the better tool.
+          This site is intentionally small. The app handles event creation and
+          coordination; the RSVP endpoint handles guest responses.
         </p>
-        <a className="primary-action" href="/surface">
-          View the first desktop route
+        <a className="text-link" href="/about">
+          About Crew <span aria-hidden="true">→</span>
         </a>
       </section>
     </main>

@@ -1,12 +1,12 @@
 # Crew Web
 
-This is the standalone Next.js web surface for Crew, deployed as a static site to GitHub Pages.
+This is the standalone Next.js website for Crew, deployed as a static site to GitHub Pages.
 
-Today it includes:
+The public website is intentionally small:
 
-- A marketing shell for the public website routes
-- A first desktop surface built for split-pane planning on larger screens
-  - A static RSVP experience backed by Supabase
+- A coordinator-focused home page
+- An About page
+- A static RSVP endpoint backed by Supabase
 
 Current env and routing seams:
 
@@ -30,4 +30,4 @@ Local workflow:
 
 1. Install dependencies at the repository root if needed.
 2. Run `npm run dev`.
-3. Iterate on the marketing shell, desktop surface, or share pages.
+3. Open `/` for the coordinator site or `/rsvp?token=...` for the RSVP endpoint.

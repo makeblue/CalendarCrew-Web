@@ -1,17 +1,14 @@
-import { MarketingNav } from './marketing-nav';
-
 export function SiteHeader() {
   return (
     <header className="site-header">
       <div className="site-header__inner">
         <a className="brand-lockup" href="/">
-          <span className="brand-mark">C</span>
+          <img alt="Crew" className="brand-logo" src="/brand/crew-logo.png" />
           <span className="brand-wordmark">Crew</span>
         </a>
-        <MarketingNav />
-        <a className="header-action" href="/surface">
-          Open the surface
-        </a>
+        <nav className="simple-nav" aria-label="Primary">
+          <a href="/about">About us</a>
+        </nav>
       </div>
     </header>
   );

@@ -5,15 +5,14 @@ export default function NotFound() {
         <p className="eyebrow">Crew</p>
         <h1>Page not found.</h1>
         <p className="lede">
-          The link you opened drifted off course, but the rest of the Crew
-          surface is still here.
+          The page you requested does not exist.
         </p>
         <div className="hero-actions">
-          <a className="primary-action" href="/">
+          <a className="text-link" href="/">
             Return home
           </a>
-          <a className="secondary-action" href="/surface">
-            Open the desktop surface
+          <a className="text-link" href="/about">
+            About us
           </a>
         </div>
       </section>

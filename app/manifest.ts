@@ -6,12 +6,11 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: 'Crew',
     short_name: 'Crew',
-    description:
-      'Plan nights out, keep crews aligned, and turn loose ideas into shared momentum.',
+    description: 'Event coordination for organizers.',
     start_url: '/',
     display: 'standalone',
-    background_color: '#0b1020',
-    theme_color: '#0b1020',
+    background_color: '#101b2e',
+    theme_color: '#101b2e',
     icons: [
       {
         src: '/icons/icon-192.png',

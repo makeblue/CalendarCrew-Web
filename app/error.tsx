@@ -12,18 +12,16 @@ export default function ErrorPage({ error, reset }: ErrorPageProps) {
     <main className="shell">
       <section className="hero">
         <p className="eyebrow">Crew</p>
-        <h1>Something went off-script.</h1>
+        <h1>Something went wrong.</h1>
         <p className="lede">
           We hit an unexpected problem while loading this part of the website.
         </p>
-        {error.digest ? (
-          <p className="secondary-action">Reference: {error.digest}</p>
-        ) : null}
+        {error.digest ? <p className="rsvp-message">Reference: {error.digest}</p> : null}
         <div className="hero-actions">
-          <button className="primary-action" onClick={() => reset()} type="button">
+          <button className="plain-button" onClick={() => reset()} type="button">
             Try again
           </button>
-          <a className="secondary-action" href="/">
+          <a className="text-link" href="/">
             Return home
           </a>
         </div>

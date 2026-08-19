@@ -6,7 +6,7 @@ import { buildPageMetadata } from '../lib/seo/site-metadata';
 
 export const metadata = buildPageMetadata({
   title: 'Crew',
-  description: 'Plan together, stay together.',
+  description: 'Event coordination for organizers.',
 });
 
 export default function RootLayout({
