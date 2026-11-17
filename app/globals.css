@@ -241,6 +241,77 @@ input {
   padding-top: 48px;
 }
 
+.legal-page {
+  max-width: 960px;
+}
+
+.legal-header {
+  max-width: 760px;
+  padding-bottom: 48px;
+  border-bottom: 1px solid var(--line);
+}
+
+.legal-header h1 {
+  max-width: 720px;
+  margin: 0;
+  color: var(--navy);
+  font-size: clamp(2.6rem, 6vw, 4.8rem);
+  font-weight: 700;
+  letter-spacing: -0.055em;
+  line-height: 1;
+}
+
+.legal-date {
+  margin: 28px 0 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.legal-content {
+  display: grid;
+  gap: 0;
+  max-width: 760px;
+}
+
+.legal-content section {
+  padding: 36px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.legal-content h2 {
+  margin: 0 0 14px;
+  color: var(--navy);
+  font-size: 1.35rem;
+  letter-spacing: -0.025em;
+}
+
+.legal-content p,
+.legal-content li {
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.legal-content p {
+  margin: 12px 0 0;
+}
+
+.legal-content ul {
+  display: grid;
+  gap: 8px;
+  margin: 14px 0 0;
+  padding-left: 22px;
+}
+
+.legal-content a {
+  color: var(--navy);
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: var(--orange);
+  text-underline-offset: 3px;
+}
+
 .rsvp-form {
   display: grid;
   gap: 14px;
